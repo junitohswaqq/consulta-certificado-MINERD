@@ -1,0 +1,444 @@
+.boxid_ {
+	width: 100%; display: table;
+}
+.l_hidden {
+	display: none;
+}
+.primaryNav ul {
+	margin: 0px; padding: 0px;
+}
+.primaryNav ul li {
+	list-style: none;
+}
+.primaryNav > ul > li > div {
+	background: rgb(255, 255, 255); padding: 18px 0px; left: 0px; width: 100%; right: 0px; overflow: hidden; display: none; position: absolute; min-height: 340px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; box-shadow: 0px 5px 9px -4px rgba(0,0,0,0.2);
+}
+.primaryNav > ul > li {
+	float: left;
+}
+.primaryNav > ul > li > a {
+	padding: 13px 14px; transition:0.3s; color: rgb(85, 100, 132); text-transform: uppercase; font-size: 12px; display: block; position: relative; cursor: pointer; box-shadow: inset 0px 4px 0px 0px rgba(63,169,245,0), inset 0px 40px 30px -30px rgba(0,86,166,0);
+}
+.primaryNav > ul > li > span {
+	padding: 13px 14px; transition:0.3s; color: rgb(85, 100, 132); text-transform: uppercase; font-size: 12px; display: block; position: relative; cursor: pointer; box-shadow: inset 0px 4px 0px 0px rgba(63,169,245,0), inset 0px 40px 30px -30px rgba(0,86,166,0);
+}
+.primaryNav > ul > li.active > a {
+	background: rgb(255, 255, 255); color: rgb(0, 86, 166); box-shadow: inset 0px 4px 0px 0px rgb(63,169,245), inset 0px -40px 30px -30px rgba(0,86,166,0);
+}
+.primaryNav > ul > li.parent > a {
+	padding: 13px 26px 13px 14px;
+}
+.primaryNav > ul > li.parent > span {
+	padding: 13px 26px 13px 14px;
+}
+.primaryNav > ul > li:hover > a {
+	background: rgb(255, 255, 255); color: rgb(0, 86, 166) !important; box-shadow: inset 0px 4px 0px 0px rgb(63,169,245), inset 0px -40px 30px -30px rgba(0,86,166,0);
+}
+.primaryNav > ul > li:hover > span {
+	background: rgb(255, 255, 255); color: rgb(0, 86, 166) !important; box-shadow: inset 0px 4px 0px 0px rgb(63,169,245), inset 0px -40px 30px -30px rgba(0,86,166,0);
+}
+.primaryNav > ul > li > a:focus {
+	background: rgb(255, 255, 255); color: rgb(0, 86, 166) !important; box-shadow: inset 0px 4px 0px 0px rgb(63,169,245), inset 0px -40px 30px -30px rgba(0,86,166,0);
+}
+.primaryNav > ul > li > a:visited {
+	background: rgb(255, 255, 255); color: rgb(0, 86, 166) !important; box-shadow: inset 0px 4px 0px 0px rgb(63,169,245), inset 0px -40px 30px -30px rgba(0,86,166,0);
+}
+.primaryNav {
+	width: 100%; display: table; position: relative; z-index: 9999;
+}
+.boxid_.nav {
+	background: rgb(255, 255, 255); padding: 0px; border-top-color: rgb(236, 236, 236); border-top-width: 1px; border-top-style: solid; position: relative; box-shadow: 0px 10px 10px -10px rgba(57,71,107,0.16);
+}
+.primaryNav > ul > li:hover > div {
+	display: block;
+}
+.primaryNav > ul > li:focus > div {
+	display: block;
+}
+.primaryNav > ul > li:active > div {
+	display: block;
+}
+.primaryNav > ul > li.parent > a::after {
+	border-width: 4px 4px 0px; border-style: solid; border-color: rgb(42, 82, 121) transparent; transition:0.6s; top: 46%; right: 10px; position: absolute; content: "";
+}
+.primaryNav > ul > li.parent > span::after {
+	border-width: 4px 4px 0px; border-style: solid; border-color: rgb(42, 82, 121) transparent; transition:0.6s; top: 46%; right: 10px; position: absolute; content: "";
+}
+.primaryNav > ul > li.parent:hover > a::after {
+	right: 10px; border-top-color: rgb(63, 169, 245); transform: rotate(180deg);
+}
+.primaryNav > ul > li.parent:hover > span::after {
+	right: 10px; border-top-color: rgb(63, 169, 245); transform: rotate(180deg);
+}
+.primaryNav .ctnChild_1 ul {
+	margin-right: 10px; float: left; min-width: 20%; max-width: 70%;
+}
+.primaryNav .ctnChild_1 > ul {
+	margin-left: 10px;
+}
+.primaryNav .ctnChild_1 > ul > li > a {
+	margin: 0px; color: rgb(0, 86, 166); text-decoration: none; cursor: pointer;
+}
+.primaryNav .ctnChild_1 > ul > li > div {
+	margin: 0px; color: rgb(0, 86, 166); text-decoration: none; cursor: pointer;
+}
+.primaryNav .ctnChild_1 ul li a.active {
+	color: rgb(63, 169, 245) !important;
+}
+.ctnChild_1 ul li div.active {
+	color: rgb(63, 169, 245) !important;
+}
+.primaryNav .ctnChild_1 ul li {
+	padding: 10px 0px; transition:0.5s; width: 100%; font-size: 13px; font-weight: 300; display: block; cursor: pointer;
+}
+.primaryNav .titleList {
+	margin: 0px 0px 10px; color: rgb(0, 86, 166); text-transform: uppercase; line-height: 36px; font-size: 14px; font-weight: 400;
+}
+.primaryNav h3 {
+	margin: 0px 0px 10px; color: rgb(0, 86, 166); font-size: 14px;
+}
+.primaryNav p {
+	margin: 4px 0px 15px; text-align: justify; color: rgb(64, 64, 64); font-family: "Open Sans"; font-size: 13px;
+}
+.itemTab.quienes-somos {
+	padding: 0px 0px 0px 25px; height: 355px; border-left-color: rgb(241, 241, 241); border-left-width: 1px; border-left-style: solid; position: relative;
+}
+.dependencias {
+	padding: 0px 0px 0px 25px; height: 355px; border-left-color: rgb(241, 241, 241); border-left-width: 1px; border-left-style: solid; position: relative;
+}
+.despacho-ministro {
+	padding: 0px 0px 0px 25px; height: 355px; border-left-color: rgb(241, 241, 241); border-left-width: 1px; border-left-style: solid; position: relative;
+}
+.areas-institucionales {
+	padding: 0px 0px 0px 25px; height: 355px; border-left-color: rgb(241, 241, 241); border-left-width: 1px; border-left-style: solid; position: relative;
+}
+.ctnTabNav {
+	overflow: hidden; float: none; display: inline-block; position: absolute; inset: 0px 0px 0px 248px;
+}
+.itemTab {
+	overflow: hidden; float: none; display: inline-block; position: absolute; inset: 0px 0px 0px 248px;
+}
+.ctnTabNav .quienes-somos {
+	box-shadow: inset 460px 80px 230px 0px rgb(255,255,255); background-image: url("../img/edificio-educacion.jpg");
+}
+.ctnTabNav .dependencias {
+	background-image: url("../img/edificio-educacion.jpg");
+}
+.ctnTabNav .despacho-ministro {
+	background-image: url("../img/ministro.jpeg");
+}
+.ctnTabNav .areas-institucionales {
+	background-image: url("../img/edificio-educacion.jpg");
+}
+.primaryNav .itemTab.quienes-somos .ctnTagList {
+	float: inherit; display: block; min-width: 40%; max-width: 50%;
+}
+.primaryNav #frase-ministro {
+	background: rgba(234, 236, 238, 0.88); margin: 40px 0px 0px; padding: 20px; width: 80%; bottom: 30px; color: rgb(83, 134, 181); font-family: "open sans"; font-size: 18px; font-style: italic; border-left-color: rgb(83, 134, 181); border-left-width: 4px; border-left-style: solid; display: block; position: absolute;
+}
+#ctnTagList li {
+	background: rgba(63, 169, 245, 0.1); margin: 2px 0px; padding: 5px 8px; color: rgb(83, 134, 181); text-transform: uppercase; font-size: 11px; display: inline-block; cursor: inherit;
+}
+.primaryNav .ctnChild_1 #ctnTagList {
+	width: 100%; margin-bottom: 20px; float: none; display: block; max-width: 100%;
+}
+.primaryNav .itemTab.quienes-somos a.viewmoreTabNav {
+	padding: 6px 12px; border: 1px solid rgba(179, 212, 252, 0.52); transition:0.3s; border-image: none; color: rgb(0, 86, 166); font-size: 13px; text-decoration: none; cursor: pointer;
+}
+.itemTab.dependencias a.viewmoreTabNav {
+	padding: 6px 12px; border: 1px solid rgba(179, 212, 252, 0.52); transition:0.3s; border-image: none; color: rgb(0, 86, 166); font-size: 13px; text-decoration: none; cursor: pointer;
+}
+.itemTab.despacho-ministro a.viewmoreTabNav {
+	padding: 6px 12px; border: 1px solid rgba(179, 212, 252, 0.52); transition:0.3s; border-image: none; color: rgb(0, 86, 166); font-size: 13px; text-decoration: none; cursor: pointer;
+}
+.itemTab.areas-institucionales a.viewmoreTabNav {
+	padding: 6px 12px; border: 1px solid rgba(179, 212, 252, 0.52); transition:0.3s; border-image: none; color: rgb(0, 86, 166); font-size: 13px; text-decoration: none; cursor: pointer;
+}
+#servicios a.viewmoreTabNav {
+	padding: 6px 12px; border: 1px solid rgba(179, 212, 252, 0.52); transition:0.3s; border-image: none; color: rgb(0, 86, 166); font-size: 13px; text-decoration: none; cursor: pointer;
+}
+.btnNoticiasPortada a.viewmoreTabNav {
+	padding: 6px 12px; border: 1px solid rgba(179, 212, 252, 0.52); transition:0.3s; border-image: none; color: rgb(0, 86, 166); font-size: 13px; text-decoration: none; cursor: pointer;
+}
+.primaryNav .itemTab.quienes-somos a:hover {
+	background: rgb(0, 86, 166); border: 1px solid rgba(0, 86, 166, 0); border-image: none; color: rgb(255, 255, 255);
+}
+.itemTab.dependencias a:hover {
+	background: rgb(0, 86, 166); border: 1px solid rgba(0, 86, 166, 0); border-image: none; color: rgb(255, 255, 255);
+}
+.itemTab.despacho-ministro a:hover {
+	background: rgb(0, 86, 166); border: 1px solid rgba(0, 86, 166, 0); border-image: none; color: rgb(255, 255, 255);
+}
+.itemTab.areas-institucionales a:hover {
+	background: rgb(0, 86, 166); border: 1px solid rgba(0, 86, 166, 0); border-image: none; color: rgb(255, 255, 255);
+}
+#servicios a.viewmoreTabNav:hover {
+	background: rgb(0, 86, 166); border: 1px solid rgba(0, 86, 166, 0); border-image: none; color: rgb(255, 255, 255);
+}
+.ctnBtn {
+	display: block;
+}
+.primaryNav .widgetTabNav_noticias {
+	margin: 0px 28px 0px 0px; float: left; min-width: 20%; max-width: 24%;
+}
+.primaryNav .widgetTabNav_galerias {
+	width: 20%; float: left;
+}
+.primaryNav .widgetTabNav_transmisiones {
+	margin: 0px 28px 0px 0px; float: left; min-width: 20%; max-width: 26%;
+}
+.primaryNav .imageTabNav {
+	margin: 0px 0px 10px; border-radius: 2px; width: 100%; height: 160px; overflow: hidden; float: left; display: block; position: relative;
+}
+.primaryNav .transmisionesTabNav {
+	background: rgb(234, 236, 238); margin: 0px; border-radius: 2px; width: 100%; height: 160px; overflow: hidden; float: left; display: block; position: relative; cursor: pointer;
+}
+.primaryNav .titleTabNav {
+	margin: 0px 0px 5px;
+}
+.primaryNav .textTabNav {
+	color: rgb(128, 128, 128); line-height: 16px; font-family: "Open Sans", sans-serif; font-size: 12px; font-weight: 100;
+}
+.primaryNav .vermasTabNav {
+	margin: 8px 0px 0px; padding: 5px 8px; border: 1px solid rgb(179, 212, 252); border-image: none; color: rgb(63, 169, 245); font-size: 12px; float: left; display: block;
+}
+.primaryNav .transmisionesTabNav ul li a {
+	padding: 0px 0px 12px; color: inherit; line-height: 16px; text-decoration: none; display: block; cursor: pointer;
+}
+.widgetTabNav_galerias .imageTabNav {
+	max-height: 100px;
+}
+.primaryNav #servicios .ctnChild_1 ul li {
+	padding: 8px 0px;
+}
+.primaryNav #servicios .ctnChild_1 ul {
+	max-width: 20%;
+}
+.primaryNav .ctnChild_1 .widgetTabNav_transmisiones ul li {
+	margin: 0px; padding: 10px 0px 0px; overflow: hidden; max-height: 36px;
+}
+.primaryNav .imageTabNav img {
+	left: -25%; top: -12%; width: auto; position: absolute; min-width: 124%;
+}
+.primaryNav #comunicaciones .titleTabNav a {
+	transition:0.3s; color: rgb(29, 29, 29); line-height: 17px; font-size: 13px; font-weight: 400; display: inline-block; cursor: pointer;
+}
+.active .icPrimaryNav.icon {
+	color: rgb(63, 169, 245);
+}
+.icPrimaryNav.bullet.icon {
+	color: rgb(63, 169, 245); line-height: 27px; font-size: 10px;
+}
+.itemTab .icPrimaryNav.bullet.icon + a {
+	left: 15px; line-height: 14px; text-decoration: none; position: relative;
+}
+.icPrimaryNav.icon {
+	color: rgb(83, 134, 181); font-size: 2em; margin-top: -3px; margin-right: 6px; float: left; display: inline-block;
+}
+.linkTabNav.active::before {
+	background: rgb(63, 169, 245); left: -14px; top: 25%; width: 2px; height: 65%; position: absolute; content: "";
+}
+.icon.underline::after {
+	background: rgb(63, 169, 245); left: 0px; width: 100%; height: 2px; bottom: -6px; position: absolute; content: "";
+}
+.underline.icon {
+	position: relative;
+}
+.titleList.ministro {
+	background: rgb(83, 134, 181); padding: 10px 20px; color: rgb(255, 255, 255); text-transform: capitalize; font-family: "Open Sans"; font-size: 21px;
+}
+.primaryNav a.linkServicios:hover {
+	color: rgb(63, 169, 245); text-decoration: underline;
+}
+.primaryNav .itemTab {
+	background-position: right top; padding: 20px 20% 56px 20px; left: 0px; background-repeat: no-repeat; background-size: contain;
+}
+.ctnTabNav .despacho-del-ministro {
+	background-image: url("../img/ministro.jpeg");
+}
+.primaryNav .itemTab * {
+	position: relative; z-index: 1;
+}
+#servicios .ctnChild_1 {
+	background-position: right top; left: 0px; background-image: url("../img/servicios.jpg"); background-repeat: no-repeat; background-size: contain;
+}
+#servicios .ctnChild_1 {
+	box-shadow: inset 600px 158px 250px 35px rgb(255,255,255);
+}
+.vermasTabNav:hover {
+	background: rgb(83, 134, 181); border: currentColor; border-image: none; color: rgb(255, 255, 255); cursor: pointer;
+}
+.primaryNav .widgetTabNav_transmisiones li a {
+	
+}
+.primaryNav .widgetTabNav_transmisiones ul {
+	display: table; min-width: 100%;
+}
+.boxid_.navMobile {
+	padding: 0px; overflow: hidden; position: relative; min-height: 54px;
+}
+.navMobile .barNav {
+	background: rgb(255, 255, 255); position: relative;
+}
+.ctnSearchMobile {
+	padding: 10px 0px; width: calc(100% - 60px); height: 34px; float: left; position: relative;
+}
+.boxinput input {
+	background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 90%; text-transform: inherit; line-height: inherit; position: absolute; inset: 0px 5%;
+}
+.boxinput {
+	background: rgb(255, 255, 255); border-radius: 2px; border: 2px solid rgb(32, 128, 206); border-image: none; width: calc(90% - 8px); height: 30px; text-transform: uppercase; line-height: 8px; overflow: hidden; font-family: Roboto; font-size: 12px; margin-right: 5%; position: relative;
+}
+.ctnSearchMobile form {
+	width: 100%; position: relative;
+}
+.ctnBtnNavMobile {
+	background: rgba(63, 169, 245, 0.1); transition:0.3s; width: 60px; height: 54px; float: right; cursor: pointer;
+}
+.ctnBtnNavMobile:active {
+	background: rgba(63, 169, 245, 0.2);
+}
+.btn_navMobile {
+	margin: 8px 0px; transition:0.3s; position: relative;
+}
+.btn_navMobile svg {
+	margin: 0px auto; width: 40%; height: 34px; display: block;
+}
+.btn_navMobile svg rect {
+	transition:0.3s; display: block; position: relative; fill: rgb(32, 128, 206);
+}
+.btn_navMobile.active svg .gh-svg-rect-top {
+	transform: rotate(45deg); x: 30px; y: 0px;
+}
+.btn_navMobile.active svg .gh-svg-rect-bottom {
+	transform: rotate(-45deg); x: -55px; y: 70px;
+}
+.btn_navMobile.active svg .gh-svg-rect-center {
+	opacity: 0;
+}
+.btn_navMobile.active {
+	margin: 8px 0px 0px -4px;
+}
+.primaryNavMobile {
+	width: 100%; display: table; position: relative; z-index: 999; background-color: transparent;
+}
+.primaryNavMobile li {
+	margin: 0px; padding: 12px 0px; transition:0.5s; color: rgb(255, 255, 255); text-transform: uppercase; font-family: Roboto; font-size: 15px; font-weight: 300; border-bottom-color: rgba(0, 86, 185, 0.5); border-bottom-width: 1px; border-bottom-style: solid; display: block; cursor: pointer;
+}
+.primaryNavMobile li a {
+	color: inherit !important; display: block !important;
+}
+.primaryNavMobile ul {
+	margin: 0px; padding: 20px 0px 30px; position: relative;
+}
+.primaryNavMobile li.active {
+	border-bottom-color: rgba(0, 86, 185, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.primaryNavMobile li.linkTabNavMobile::after {
+	color: rgb(179, 212, 252); line-height: 18px; font-size: 18px; float: right; content: "+"; animation-name: iconRotate; animation-duration: 0.3s;
+}
+.primaryNavMobile li.active.linkTabNavMobile::after {
+	color: rgb(179, 212, 252); line-height: 18px; font-size: 18px; float: right; display: none; content: "+"; animation-name: iconRotate; animation-duration: 0.3s;
+}
+.primaryNavMobile li.linkTabNavMobile::before {
+	transition:0.3s; color: rgb(179, 212, 252); line-height: 18px; font-size: 24px; float: right; display: none; content: "-"; animation-name: iconRotate; animation-duration: 0.3s;
+}
+.primaryNavMobile li.active.linkTabNavMobile::before {
+	transition:0.3s; color: rgb(179, 212, 252); line-height: 18px; font-family: arial; font-size: 24px; float: right; display: block; content: "-"; animation-name: iconRotate; animation-duration: 0.3s;
+}
+.primaryNavMobile .ctnChild_mobile a {
+	padding: 12px 15px; transition:0.5s; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 12px; text-decoration: none; display: block;
+}
+.primaryNavMobile .ctnChild_mobile ul {
+	padding: 0px 50px; height: 100%; border-bottom-color: rgba(0, 86, 185, 0.5); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.primaryNavMobile .ctnChild_mobile a::before {
+	width: 15px; color: rgba(179, 212, 252, 0.52); display: block; content: ""; box-shadow: -31px 10px 0px 1px;
+}
+.primaryNavMobile .ctnChild_mobile a::after {
+	color: rgb(179, 212, 252); float: right;
+}
+.primaryNavMobile .ctnChild_mobile a:hover {
+	cursor: pointer;
+}
+.primaryNavMobile .ctnChild_mobile ul::before {
+	background: rgba(179, 212, 252, 0.52); left: 33px; top: 0px; width: 2px; bottom: 17px; position: absolute; content: "";
+}
+.primaryNavMobile .linkTabNavMobile li {
+	background: rgb(204, 99, 99);
+}
+.primaryNavMobile.hidden.animat {
+	height: 0px;
+}
+.primaryNavMobile .ctnChild_mobile {
+	transition:1s; height: auto;
+}
+.ctnChild_mobile.hidden_a ul {
+	height: 0px;
+}
+.primaryNav .ctnChild_1 ul li:hover {
+	color: rgb(0, 0, 0) !important; cursor: pointer;
+}
+.boxid_.navTopFixed {
+	top: 0px; border-top-color: rgb(39, 147, 230); border-top-width: 1px; border-top-style: solid; position: fixed;
+}
+.primaryNav #servicios .ctnChild_1 ul div.ctnBtn {
+	margin-top: 14px;
+}
+.primaryNav #servicios .ctnChild_1 > ul > li > a {
+	width: 85%; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.widgetTabNav_galerias .imageTabNav::before {
+	background: rgba(255, 255, 255, 0.6); border-radius: 2px; top: 10px; width: 15px; height: 15px; right: 10px; position: absolute; z-index: 99; content: ""; box-shadow: 1px -1px 0px 0px rgba(0,0,0,0.3), 3px -3px 0px 0px rgba(255,255,255,0.3);
+}
+.primaryNav .transmisionesTabNav::before {
+	border-width: 26px 34px; border-style: solid; border-color: transparent transparent transparent rgba(255, 255, 255, 0.74); left: calc(50% - 17px); top: 68px; width: 0px; height: 0px; position: absolute; z-index: 999; content: ""; box-shadow: -10px 0px 10px -10px rgba(0,0,0,0.5);
+}
+.primaryNav .transmisionesTabNav::after {
+	background: rgba(0, 0, 0, 0.2); position: absolute; z-index: 2; content: ""; inset: 0px; backdrop-filter: saturate(180%) blur(2px);
+}
+.pruebas.mini a.icon.Ic_gpw-106 {
+	color: rgb(255, 87, 34); line-height: 42px; font-size: 32px;
+}
+.primaryNav #comunicaciones .titleTabNav a:hover {
+	text-decoration: underline;
+}
+.primaryNav .imageTabNav img:hover {
+	
+}
+.primaryNav .imageTabNav img::before {
+	background: rgb(255, 255, 255); left: 70px; top: 0px; width: 100px; position: absolute; z-index: 2147483647; content: "";
+}
+li#sobre-nosotros {
+	position: relative;
+}
+li#sobre-nosotros .ctnTabNav {
+	display: none;
+}
+#sobre-nosotros .ctnChild_1 {
+	min-width: 240px;
+}
+.primaryNav #sobre-nosotros .ctnChild_1 ul {
+	width: 90%; max-width: inherit;
+}
+li#comunicaciones {
+	position: relative;
+}
+li#comunicaciones .ctnTabNav {
+	display: none;
+}
+#comunicaciones .ctnChild_1 {
+	min-height: auto; min-width: 240px;
+}
+.primaryNav #comunicaciones .ctnChild_1 ul {
+	width: 90%; max-width: inherit;
+}
+.widgetTabNav_noticias {
+	display: none;
+}
+.widgetTabNav_transmisiones {
+	display: none;
+}
+.widgetTabNav_galerias {
+	display: none;
+}

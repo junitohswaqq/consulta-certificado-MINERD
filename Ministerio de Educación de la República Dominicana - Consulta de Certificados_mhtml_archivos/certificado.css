@@ -1,0 +1,16 @@
+@page  {}
+.cert-centrado {
+	width: 50%; text-align: center; margin-right: auto; margin-left: auto;
+}
+#cert-contenedor {
+	margin: 0px; padding: 0px 4%;
+}
+.cert-descripcion {
+	font-style: italic;
+}
+.cert-resultado {
+	font-family: "Plantagenet Cherokee";
+}
+.cert-resultado-bold {
+	font-family: "Plantagenet Cherokee"; font-weight: bold;
+}
